@@ -15,7 +15,7 @@ class CuentaBancaria:
     def mostrar_saldo(self):
         return f"Saldo de {self.__titular}: {self.__saldo}"
 
-cuenta = CuentaBancaria("Juan", 1000)
+cuenta = CuentaBancaria("Santiago", 1000)
 cuenta.depositar(500)
 cuenta.retirar(300)
 print(cuenta.mostrar_saldo())
